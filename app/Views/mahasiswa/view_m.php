@@ -58,8 +58,8 @@
 						<td><?php echo $data['jurusan']; ?></td>
                         <td>
                             <div class="btn-group">
-                                <a href="<?php echo base_url('product/edit/'.$data['product_id']); ?>" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></a>
-                                <a href="<?php echo base_url('product/delete/'.$data['product_id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $data['product_name']; ?> ini?')"><i class="fas fa-trash-alt"></i></a>
+                                <a href="<?php echo base_url('mahasiswa/edit/'.$data['id']); ?>" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></a>
+                                <a href="<?php echo base_url('mahasiswa/delete/'.$data['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $data['product_name']; ?> ini?')"><i class="fas fa-trash-alt"></i></a>
                             </div>
                         </td>
                     </tr>
